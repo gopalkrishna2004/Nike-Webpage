@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/bg2.jpg');
+  }
+  .header{
+        font-family: 'Baloo Bhai', cursive;
+  }
+
+  .left{
+    position: absolute;
+    font-size: 50px;
+    left: 35px;
+    top: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+     display:inline-block;
+       /* border: 4px solid black; */
+  }
+
+  .mid{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    display: block;
+    margin: 37px auto;
+    width: 40%;
+    /* border: 4px solid rgb(85, 50, 198); */
+
+  }
+
+  .right{
+    position: absolute;
+    right: 35px;
+    top: 40px;
+    display:inline-block;
+    /* border: 4px solid rgb(49, 207, 65); */
+  }
+
+  .navbar{
+      /* display: inline-block; */
+      background-color: whitesmoke;
+      padding: 12px 12px;
+      border-radius: 22px;
+  }
+
+  .navbar li{
+    display: inline-block;
+    /* margin: auto 28px; */
+    
+  }
+
+  .navbar li a{
+    color: black;
+    
+    text-decoration: none;
+    padding: 12px 28px;
+  }
+
+  .navbar li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    text-decoration:double;
+    padding: 12px 28px;
+  }
+
+  .btn{
+     padding: 8px 16px;
+     border-radius: 18px;
+     background-color: black;
+     color: whitesmoke;
+
+  }
+
+  .container{
+    border: 2px solid white;
+    margin: 71px 80px;
+    padding: 40px;
+    width: 33%;
+    border-radius: 28px;
+    font-size: 22px;
+  }
+
+  .form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
